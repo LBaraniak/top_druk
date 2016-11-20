@@ -1,0 +1,491 @@
+body {
+   	color: #fff;
+   	font-family: 'Lato';
+	text-align:center;
+	font-size: large;
+	margin:0;
+	padding:0;
+	}
+	
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+.podman {
+ 	min-height : 100vh;
+ 	background-image: url(../graph/bg_start.jpg);
+ 	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed !important;
+	background-size:cover;
+	-webkit-background-size: cover !important;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	-ms-background-size: cover;
+ 	}
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+.podman {
+ 	min-height : 100vh;
+ 	background-image: url(../graph/bg_1199.jpg);
+ 	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed !important;
+	background-size:cover;
+	-webkit-background-size: cover !important;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	-ms-background-size: cover;
+ 	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+.podman {
+ 	min-height : 100vh;
+ 	background-image: url(../graph/bg_991.jpg);
+ 	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed !important;
+	background-size:cover;
+	-webkit-background-size: cover !important;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	-ms-background-size: cover;
+ 	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 481px) and (max-width: 767px) {
+.podman {
+ 	min-height : 100vh;
+ 	background-image: url(../graph/bg_767.jpg);
+ 	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: scroll !important;
+	background-size:cover;
+	-webkit-background-size: cover !important;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	-ms-background-size: cover;
+ 	}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+.podman {
+ 	min-height : 100vh;
+ 	background-image: url(../graph/bg_480.jpg);
+ 	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: scroll !important;
+	background-size:cover;
+	-webkit-background-size: cover !important;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	-ms-background-size: cover;
+ 	}
+}
+
+.container-fluid {
+	margin:0;
+	padding:0;
+	}
+ 		
+
+
+.navbar-brand{
+ 	padding-top:0;
+ 	}
+ 
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+     border-bottom: 2px solid transparent;
+    }
+    
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #fff;
+    border-bottom-color: #E30513;
+    }
+
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #fff;
+    }
+    
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: transparent;
+    border-bottom-color: #E30513;
+	}
+
+.navbar-collapse {
+    padding-left: 50%;
+	}
+   
+.navbar-inverse {
+	background-color: rgba(0,0,0,0.75);
+	border-color: rgba(0,0,0,0.25);
+	}
+
+.czarne{
+	background-color: #000;
+	}
+
+.dystans {
+	margin:0;
+	padding:0;
+	background-color: #000;
+ 	min-height : 50px;
+	}
+
+.dystans2 {
+	margin:0;
+	padding:0;
+	background-color: transparent;
+ 	min-height : 50px;
+	}
+
+@media (min-width: 768px) {
+.oferta {
+	margin: 0;
+	padding: 0;
+	background-image: url(../graph/bg_oferta.jpg);
+ 	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	-ms-background-size: cover;
+	}
+}
+
+@media (max-width: 767px) {
+.oferta {
+	margin: 0;
+	padding: 0;
+	background-image: url(../graph/bg_oferta.jpg);
+ 	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: scroll;
+	background-size: cover;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	-ms-background-size: cover;
+	}
+}
+
+.oferta2 {
+	margin: 0;
+	padding: 0;
+	}
+
+.col1 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	}
+	
+.partnerzy {
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+	min-height: 60px;
+	}
+
+.partnerzy2 {
+	margin-top: 30px;
+	}
+
+@media (min-width: 768px) {
+.kontakt {
+	margin: 0;
+	padding: 0;
+	background-image: url(../graph/bg_kontakt.jpg);
+ 	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	}
+}	
+	
+@media (max-width: 767px) {
+.kontakt {
+	margin: 0;
+	padding: 0;
+	background-image: url(../graph/bg_kontakt.jpg);
+ 	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: scroll;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	}
+}	
+.kontakt_mapa {
+	min-height: 640px;
+	margin:0;
+	margin-top:0;
+	padding:0;
+	color: #000;
+	}
+
+.tkon1, .tkon2 {
+	word-wrap:break-word;
+	text-align: center;
+	}
+
+.tkon1 {
+	font-size: 1.2em;
+	}
+
+.tkon2 {
+	font-size: 0.8em;
+	padding-bottom: 20px;
+	}
+
+.tkon1 > a, .tkon2 > a {
+	color: #fff;
+	}
+
+.fa {
+	color: #E30513;
+	}
+
+.stopa {
+	min-height: 50px;
+	background-color: #000;
+	margin: 0;
+	padding: 0;
+	}
+	
+.col2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 13px;
+	}
+
+.col3 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: right;
+	font-size: 13px;
+	}
+
+.col4 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: left;
+	font-size: smaller;
+	}
+
+.scrollspy-example { 
+	position: relative;
+	height: 100%;
+	margin-top: 0px;
+	overflow:auto;
+	}
+
+/*panele oferty*/
+.paneloferty {
+	margin-top: 30px;
+	padding: 0;
+	}
+
+.ofBlack {
+	min-height: 295px;
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	display: block;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	}
+
+.title_ofe > h2 {
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	}
+
+/*druk*/
+ .ofBlack1 {
+	background-image: url(../graph/druk.jpg);
+	}
+.ofBlack12 {
+	background-image: url(../graph/druk2.jpg);
+	opacity: 0;
+}
+.ofBlack12:hover {
+	opacity: 1;
+}
+ .ofBlack1:hover {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.5);
+	}
+
+/*reklama wizualna*/
+ .ofBlack2 {
+	background-image: url(../graph/reklama_wizualna.jpg);
+	}
+.ofBlack22 {
+	background-image: url(../graph/reklama_wizualna2.jpg);
+	opacity: 0;
+}
+.ofBlack22:hover {
+	opacity: 1;
+}
+ .ofBlack2:hover {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.5);
+	}
+
+/*oklejanie samochodów*/
+ .ofBlack3 {
+	background-image: url(../graph/oklejanie_samochodow.jpg);
+ 	}
+.ofBlack32 {
+	background-image: url(../graph/oklejanie_samochodow2.jpg);
+	opacity: 0;
+}
+.ofBlack32:hover {
+	opacity: 1;
+}
+ .ofBlack3:hover {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.5);	
+	}
+
+/*pieczatki*/
+ .ofBlack4 {
+	background-image: url(../graph/pieczatki.jpg);
+ 	}
+.ofBlack42 {
+	background-image: url(../graph/pieczatki2.jpg);
+ 	opacity: 0;
+}
+.ofBlack42:hover {
+	opacity: 1;
+}
+ .ofBlack4:hover {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.5);	
+	}
+ 
+/*wizytowki*/
+ .ofBlack5 {
+	background-image: url(../graph/studio.jpg);
+ 	}
+.ofBlack52 {
+	background-image: url(../graph/studio2.jpg);
+ 	opacity: 0;
+}
+.ofBlack52:hover {
+	opacity: 1;
+}
+ .ofBlack5:hover {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.5);	
+	}
+
+/*sklep firmowy*/
+.ofBlack6 {
+	background-image: url(../graph/sklep.jpg);
+ 	}
+.ofBlack62 {
+	background-image: url(../graph/sklep2.jpg);
+ 	opacity: 0;
+}
+.ofBlack62:hover {
+	opacity: 1;
+}
+ .ofBlack6:hover {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.5);	
+	}
+
+/*podstrony*/
+.podstrona {
+	padding:0;
+	margin-top: 120px;
+	margin-bottom: 100px;
+	background-color: rgba(0,0,0,0.90);
+	}
+
+.fa-ul {
+	text-align: left;
+	}
+
+.zd_gallery {
+	margin: 10px;
+	height: 200px;
+	width: 200px;
+	}
+	
+.zd_gallery2 {
+	margin: 10px;
+	height: 200px;
+	width: 200px;
+	}
+
+.zd_studio{
+	
+	max-width: 100%;
+	height: auto;
+	}
+
+.pole_przycisk {
+	padding:3px;
+	
+	}	
+	
+.przycisk {
+	color: #fff;
+	font-size: 13px;
+	margin-top: 5px;
+	padding-top:15px;
+	min-height: 53px;
+	text-align:center;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	display: block;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	background-color: #222;
+	border-bottom: 2px solid transparent;
+	}
+
+ .przycisk:hover {
+ 	color: #E30513;
+	border-bottom-color: #E30513;
+	
+	}
+
+.nag_przy {
+	margin-top:10px;
+	}
+	
+
+
+
+
